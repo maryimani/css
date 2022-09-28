@@ -1,0 +1,51 @@
+body {
+   background-image: url(https://images.pexels.com/photos/8123145/pexels-photo-8123145.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+   width: 80%;
+   object-fit: contain;
+
+   
+}
+
+.block2 {
+    display: block;
+    border: 1px solid #666;
+    background-color: rgb(5, 255, 247);
+    padding: 10px;
+    width: 50%;
+    
+}
+.hello {
+    border: 1px solid #1c87c9;
+    background-color: #1cc;
+    padding: 10px;
+    text-align: center;
+}
+.static {
+    position: static;
+    width: 80%;
+    border: 3px solid #73AD21;
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    left: 20px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }

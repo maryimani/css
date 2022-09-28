@@ -1,5 +1,5 @@
 h1 {
-    background-color: rgb(254, 254, 251);
+    background-color: FEF9A7rgb(254, 254, 251);
 }
 #division {
     color: blueviolet;
@@ -11,4 +11,42 @@ h1 {
 
 .black {
     color: chartreuse;
+}
+/* styling tables */
+
+table, th, td {
+    border: 1px solid;
+    width:50%;
+    
+}
+th{
+    background-color: rgba(5, 213, 255, 0.003);
+    color: indigo;
+    height: 50px;
+}
+table {
+    border-collapse: collapse;
+}
+.one {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.one:hover {
+
+}
+/* tr:nth-child(odd){
+    background-color: rgb(89, 255, 6);
+}
+tr :nth-child(even){
+    background-color: rgb(254, 255, 253);
+}
+td{ */
+    padding: 30px;
+}
+
+div {
+    width: 20%;
+    margin: 0 auto;
+    background-color: brown;
 }
